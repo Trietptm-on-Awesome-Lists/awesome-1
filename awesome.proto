@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package awesome;
+
+service SearchService {
+    rpc Search (SearchRequest) returns (SearchResponse);
+}
+
+message SearchRequest {
+    string q = 1;
+}
+
+message SearchResponse {
+    string url = 1;
+}
