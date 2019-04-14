@@ -7,9 +7,13 @@ service SearchService {
 }
 
 message SearchRequest {
-    string q = 1;
+    string query = 1;
 }
 
 message SearchResponse {
+    repeated Repository repositories = 1;
+}
+
+message Repository {
     string url = 1;
 }

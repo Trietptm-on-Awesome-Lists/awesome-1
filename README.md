@@ -18,7 +18,16 @@ search awesome lists
 ## Examples
 
     $ awesome Go
-    https://github.com/avelino/awesome-go
+    https://github.com/avelino/awesome-go#readme
+
+    $ awesome GO
+    https://github.com/avelino/awesome-go#readme
+
+    $ awesome go
+    https://github.com/avelino/awesome-go#readme
+
+    $ awesome Gô
+    $
 
 ## Installation
 
